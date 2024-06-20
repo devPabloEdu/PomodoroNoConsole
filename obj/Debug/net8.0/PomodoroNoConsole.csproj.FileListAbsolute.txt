@@ -1,0 +1,15 @@
+C:\Users\Admin\PomodoroNoConsole\bin\Debug\net8.0\PomodoroNoConsole.exe
+C:\Users\Admin\PomodoroNoConsole\bin\Debug\net8.0\PomodoroNoConsole.deps.json
+C:\Users\Admin\PomodoroNoConsole\bin\Debug\net8.0\PomodoroNoConsole.runtimeconfig.json
+C:\Users\Admin\PomodoroNoConsole\bin\Debug\net8.0\PomodoroNoConsole.dll
+C:\Users\Admin\PomodoroNoConsole\bin\Debug\net8.0\PomodoroNoConsole.pdb
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\PomodoroNoConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\PomodoroNoConsole.AssemblyInfoInputs.cache
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\PomodoroNoConsole.AssemblyInfo.cs
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\PomodoroNoConsole.csproj.CoreCompileInputs.cache
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\PomodoroNoConsole.sourcelink.json
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\PomodoroNoConsole.dll
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\refint\PomodoroNoConsole.dll
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\PomodoroNoConsole.pdb
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\PomodoroNoConsole.genruntimeconfig.cache
+C:\Users\Admin\PomodoroNoConsole\obj\Debug\net8.0\ref\PomodoroNoConsole.dll
