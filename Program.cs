@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.ComponentModel.Design;
 
 namespace PomodoroNoConsole
 {
@@ -8,6 +9,11 @@ namespace PomodoroNoConsole
 
   static void Main(string[] args)
   {
+    
+        Menu();
+ 
+  }
+  static void Menu(){
     Console.WriteLine("=============================");
         Console.WriteLine(" _____   ____  __  __  ____   ");
         Console.WriteLine("|  __ \\ / __ \\|  \\/  ||  __ \\ ");
@@ -22,17 +28,57 @@ namespace PomodoroNoConsole
         Console.WriteLine("||  2 - PAUSA(5 MINUTOS)     || ");
         Console.WriteLine("||  3 - SAIR DO PROGRAMA     || ");
         Console.WriteLine("=============================");
-        int chosenNumber = int.Parse(Console.ReadLine());
+        float chosenNumber = float.Parse(Console.ReadLine());
+
+        switch (chosenNumber)
+        {
+          case 1 : StartPomodoro();
+          break;
+          case 2 : StartPause();
+          break;
+          case 3 : System.Environment.Exit(0);
+          break;
+          default: Console.WriteLine("insira um valor correto");
+          break;
+        }
   }
 
-  static void Start(int chosenNumber){
-    switch(chosenNumber){
-        case "1" : 
+  static void StartPomodoro(){
+    int currentTime = 0;
+    while(currentTime != 1){
+        Console.Clear();
+        Console.WriteLine("|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|");
+        Console.WriteLine("|                                                |");
+        Console.WriteLine("|         MINUTOS :  " + currentTime+"                           |");
+        Console.WriteLine("|                                                |");
+        Console.WriteLine("|                                                |");
+        Console.WriteLine("|________________________________________________|");
+        currentTime++;
+        Thread.Sleep(60000);
     }
-    
-
-
+    Console.ReadKey();
+    Menu();
   }
+
+  static void StartPause(){
+    int currentTime = 0;
+    while(currentTime != 5){
+        Console.Clear();
+        Console.WriteLine("|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|");
+        Console.WriteLine("|                                                |");
+        Console.WriteLine("|Voce está de pausa a " + currentTime + " Minutos|");
+        Console.WriteLine("|                                                |");
+        Console.WriteLine("|                                                |");
+        Console.WriteLine("|________________________________________________|");
+        
+        currentTime++;
+        Thread.Sleep(60000);
+    }
+    Console.ReadKey();
+    Menu();
+  } 
+
+
     }
 
 }
