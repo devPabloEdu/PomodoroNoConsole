@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PomodoroNoConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4578b07295b399e71e5bbd511ad307ab520ba7a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4906d2433ec3ccb12c0f1fdc1054cc6ed0c7e93")]
 [assembly: System.Reflection.AssemblyProductAttribute("PomodoroNoConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PomodoroNoConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

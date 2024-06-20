@@ -14,6 +14,7 @@ namespace PomodoroNoConsole
  
   }
   static void Menu(){
+    Console.Clear();
     Console.WriteLine("=============================");
         Console.WriteLine(" _____   ____  __  __  ____   ");
         Console.WriteLine("|  __ \\ / __ \\|  \\/  ||  __ \\ ");
@@ -66,7 +67,7 @@ namespace PomodoroNoConsole
         Console.Clear();
         Console.WriteLine("|^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^|");
         Console.WriteLine("|                                                |");
-        Console.WriteLine("|Voce está de pausa a " + currentTime + " Minutos|");
+        Console.WriteLine("|TEMPO DE PAUSA: " + currentTime + "   Minutos                     |");
         Console.WriteLine("|                                                |");
         Console.WriteLine("|                                                |");
         Console.WriteLine("|________________________________________________|");
